@@ -17,8 +17,11 @@ def start_game(user_name: str):
         print(f'Question: {random}')
         answer = prompt.string('Your answer: ')
         if answer not in ['yes', 'no'] or answer != correct_answer:
-            print(f'\'{answer}\' is wrong answer ;(. Correct answer was \'{correct_answer}\'.')
-            correct_count = 0
+            print(
+                f'\'{answer}\' is wrong answer ;(. '
+                f'Correct answer was \'{correct_answer}\'.'
+            )
+            sys.exit(0)
         else:
             print('Correct!')
             correct_count += 1
