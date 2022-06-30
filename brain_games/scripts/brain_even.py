@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 
 from brain_games import cli
-from brain_games import even_game
+from brain_games.games import even_game
 
 
 def main():
