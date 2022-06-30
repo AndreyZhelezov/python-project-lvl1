@@ -7,3 +7,5 @@ publish: # Публикация пакета
 package-install: # Установка пакета
 	python3 -m pip install --user dist/*.whl
 
+lint: # Тестирование качества кода
+	poetry run flake8 brain_games
