@@ -6,3 +6,6 @@
 
 #### "brain-even" game install end play ascinema:
 [![asciicast](https://asciinema.org/a/x2aMQ1LHpYklcq559BVUIHUdo.svg)](https://asciinema.org/a/x2aMQ1LHpYklcq559BVUIHUdo)
+
+#### "brain-calc" game install end play ascinema:
+[![asciicast](https://asciinema.org/a/505210.svg)](https://asciinema.org/a/505210)
