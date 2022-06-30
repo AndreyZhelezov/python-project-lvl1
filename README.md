@@ -9,3 +9,6 @@
 
 #### "brain-calc" game install end play ascinema:
 [![asciicast](https://asciinema.org/a/505210.svg)](https://asciinema.org/a/505210)
+
+#### "brain-gcd" game install end play ascinema:
+[![asciicast](https://asciinema.org/a/BjAzN1Btm1h5jXCpjqqLE4WHZ.svg)](https://asciinema.org/a/BjAzN1Btm1h5jXCpjqqLE4WHZ)
