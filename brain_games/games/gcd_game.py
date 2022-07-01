@@ -14,7 +14,7 @@ def get_game_data():
         return _first_number, _second_number
     first_number, second_number = get_gcd_numbers()
     question = f'{first_number} {second_number}'
-    correct_answer = gcd(first_number, second_number)
+    correct_answer = str(gcd(first_number, second_number))
     answer_pattern = r'^[0-9]+$'
     return question, correct_answer, answer_pattern
 
