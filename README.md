@@ -15,3 +15,6 @@
 
 #### "brain-progression" game play ascinema:
 [![asciicast](https://asciinema.org/a/DrsJ3p1QVbltAgXIP1TuxOEzl.svg)](https://asciinema.org/a/DrsJ3p1QVbltAgXIP1TuxOEzl)
+
+#### "brain-prime" game play ascinema:
+[![asciicast](https://asciinema.org/a/505489.svg)](https://asciinema.org/a/505489)
