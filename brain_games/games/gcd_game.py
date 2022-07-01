@@ -1,33 +1,24 @@
-import sys
-from brain_games.games.game_process import play_round
-from math import gcd, sqrt
+from math import sqrt, gcd
 from random import randint
+from brain_games import game_process
 
 
-def get_gcd_data(top_limit=200):
-    """Function return two numbers which gcd is very likely over '1'"""
-    base_number = randint(1, int(sqrt(top_limit)))
-    first_multiplier = randint(1, int(sqrt(top_limit)))
-    second_multiplier = randint(1, int(sqrt(top_limit)))
-    first_number = base_number * first_multiplier
-    second_number = base_number * second_multiplier
-    return first_number, second_number
+def get_game_data():
+    def get_gcd_numbers(top_limit=200):
+        """Function return two numbers which GCD is highly likely is grater then '1'"""
+        base_number = randint(1, int(sqrt(top_limit)))
+        first_multiplier = randint(1, int(sqrt(top_limit)))
+        second_multiplier = randint(1, int(sqrt(top_limit)))
+        _first_number = base_number * first_multiplier
+        _second_number = base_number * second_multiplier
+        return _first_number, _second_number
+    first_number, second_number = get_gcd_numbers()
+    question = f'{first_number} {second_number}'
+    correct_answer = gcd(first_number, second_number)
+    answer_pattern = r'^[0-9]+$'
+    return question, correct_answer, answer_pattern
 
 
-def play_game(user_name: str):
-    round_won = 0
-    round_count = 3
-    print('Find the greatest common divisor of given numbers.')
-    while round_won <= round_count:
-        if round_won == round_count:
-            print(f'Congratulations, {user_name}!')
-            sys.exit(0)
-        first_number, second_number = get_gcd_data()
-        question = f'{first_number} {second_number}'
-        correct_answer = str(gcd(first_number, second_number))
-        answer_pattern = r'^[0-9]+$'
-        if play_round(question, correct_answer, answer_pattern):
-            round_won += 1
-        else:
-            print(f'Let\'s try again, {user_name}!')
-            sys.exit(0)
+def start_game(user_name: str):
+    rule_text = 'Find the greatest common divisor of given numbers.'
+    game_process.play_game(user_name, rule_text, get_game_data)
