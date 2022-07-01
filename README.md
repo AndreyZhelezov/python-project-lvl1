@@ -12,3 +12,6 @@
 
 #### "brain-gcd" game install end play ascinema:
 [![asciicast](https://asciinema.org/a/BjAzN1Btm1h5jXCpjqqLE4WHZ.svg)](https://asciinema.org/a/BjAzN1Btm1h5jXCpjqqLE4WHZ)
+
+#### "brain-progression" game play ascinema:
+[![asciicast](https://asciinema.org/a/DrsJ3p1QVbltAgXIP1TuxOEzl.svg)](https://asciinema.org/a/DrsJ3p1QVbltAgXIP1TuxOEzl)
