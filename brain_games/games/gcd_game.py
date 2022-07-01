@@ -5,7 +5,8 @@ from brain_games import game_process
 
 def get_game_data():
     def get_gcd_numbers(top_limit=200):
-        """Function return two numbers which GCD is highly likely is grater then '1'"""
+        """Function return two numbers which GCD
+        is highly likely is grater then '1'"""
         base_number = randint(1, int(sqrt(top_limit)))
         first_multiplier = randint(1, int(sqrt(top_limit)))
         second_multiplier = randint(1, int(sqrt(top_limit)))
