@@ -13,6 +13,7 @@ def get_gcd_numbers(top_limit=200):
     second_number = base_number * second_multiplier
     return first_number, second_number
 
+
 def get_game_data():
     first_number, second_number = get_gcd_numbers()
     question = f'{first_number} {second_number}'

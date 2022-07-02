@@ -8,6 +8,7 @@ def isprime(number):
             return False
     return True
 
+
 def get_game_data():
     random = randint(1, 500)
     question = str(random)

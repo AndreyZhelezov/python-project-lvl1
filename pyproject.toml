@@ -1,12 +1,20 @@
 [tool.poetry]
 name = "hexlet-code"
 version = "0.7.1"
-description = "Brain-Games.Hexlet study project level 1."
+description = "Brain-Games. Hexlet study project level 1."
+repository = "https://github.com/AndreyZhelezov/python-project-lvl1.git"
 authors = ["Andrey Zhelezov <azhelezov@mail.ru>"]
+license = "MIT"
 packages = [
   { include = "brain_games" },
 ]
-
+classifiers = [
+    "Private :: Do Not Upload",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: POSIX :: Linux",
+    "Programming Language :: Python :: 3 :: Only",
+    "Topic :: Games/Entertainment"
+]
 
 [tool.poetry.dependencies]
 python = "^3.8"
