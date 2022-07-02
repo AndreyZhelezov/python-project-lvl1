@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "hexlet-code"
-version = "0.7.0"
-description = "Brain-Games Hexlet study project"
+version = "0.7.1"
+description = "Brain-Games.Hexlet study project level 1."
 authors = ["Andrey Zhelezov <azhelezov@mail.ru>"]
 packages = [
   { include = "brain_games" },

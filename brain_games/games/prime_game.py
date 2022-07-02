@@ -2,12 +2,13 @@ from random import randint
 from brain_games import game_process
 
 
+def isprime(number):
+    for n in range(2, int(number ** 0.5) + 1):
+        if number % n == 0:
+            return False
+    return True
+
 def get_game_data():
-    def isprime(_number):
-        for n in range(2, int(_number ** 0.5) + 1):
-            if _number % n == 0:
-                return False
-        return True
     random = randint(1, 500)
     question = str(random)
     correct_answer = 'yes' if isprime(random) else 'no'
